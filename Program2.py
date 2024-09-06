@@ -49,8 +49,9 @@
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
-
-
+name= input("What is your name")
+print(name)
+print(name)
 
 
 
@@ -59,6 +60,14 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
+
+name= input("What is your name?")
+print("!" + name + name + "!")
+print("Tim" + name + "kim" + name )
+
+
+
+
 
 
 ## Problem 3 ##
@@ -71,10 +80,28 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+firstname = input ("What is your first name?")
+lastname = input ("What is your last name?")
+Address = input ("What is your address?")
+city_postalcode = input ("What is your city_postalcode?")
+
+
+
+
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
+
+adj = input ("Give me an adjective")
+verb = input("Give me a verb")
+noun = input("Give me a noun")
+print("adj\ verb\ noun")
+
+
+
+
 
 
 ## Problem 5 ##
@@ -88,3 +115,12 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+name_ = input("Please type in your name")
+year_ = input("Please type in a year")
+
+print (name_ + "Is a very pretty girl, born in the year." + year_)
+print ("one evening" + name_ +"woke up to the clouds thundering, and she saw her mom crying, only to find out that" + name_ "bestfriend had left the twon forever.")
+
+
+
